@@ -73,3 +73,5 @@ Proper use of JavaScript syntax and object-oriented principles. (5 points)
 Clear and concise comments explaining the code. (3 points)
 Successful completion of the bonus task (if attempted). (2 points)
 Note: Completing required tasks will result in 13/15 score (an "A"). Completing the bonus will result in 15/15 (an "A+"). This is because Moodle doesn't allow for extra "bonus" points on assignments.
+
+please
