@@ -212,3 +212,35 @@ Try using the forEach method instead of for.
 Submission:
 
 Use git to commit and push your code. Your code for day 4 will be in the file index-4.js. Ensure your code is well-commented to explain what each part does.
+
+Day 5
+
+Objective:
+
+This assignment will reinforce your understanding of JavaScript loops and conditionals by having you manage the energy and happiness of pets through playing and feeding.
+
+Instructions:
+
+Update Play Method:
+
+Modify the play method in your pet objects so that it:
+Increases the pet's happiness by 10.
+Decreases the pet's energy by 15.
+Returns a message like, "You played with Fluffy! Happiness is now 60, Energy is now 85."
+Play with Pets:
+
+Before feeding, play with some pets more than others (e.g., play with the first pet three times, the second pet once, etc.). (Bonus use a for loop and random to feed them randomly)
+Log the status of each pet after playing.
+Feed Pets Conditionally:
+
+Write a for loop to iterate through each kennel (dogs, cats, fish).
+Inside the loop, check if the pet’s energy is below 30.
+If it is, feed the pet using the feed method and log the updated status.
+Bonus Task (Optional):
+
+Instead of starting with 100 energy, initialize each pet’s energy with a random value between 0 and 50.
+This will make the task more dynamic and simulate varying energy levels among pets.
+Test Your Code:
+
+Ensure that only pets with energy below 30 are fed after playing.
+Display the status of each pet before and after feeding.
