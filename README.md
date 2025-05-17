@@ -141,3 +141,40 @@ Proper use of JavaScript syntax and object-oriented principles. (5 points)
 Clear and concise comments explaining the code. (3 points)
 Successful completion of the bonus task (if attempted). (2 points)
 Note: Completing required tasks will result in 13/15 score (an "A"). Completing the bonus will result in 20/20 (an "A+").
+
+Day 3
+
+Objective:
+
+This assignment will help you practice using arrays in JavaScript by creating and managing a collection of pet objects. You'll learn how to add items to an array using both the push method and bracket notation.
+
+Instructions:
+
+Create a Pet Factory Function:
+
+Define a factory function named createPet that accepts three parameters: name, species, energy and happiness. The function should return an object with these properties. The object should also have the methods status, feed, and play as it did in previous assignments.
+Create Multiple Pets:
+
+Use the createPet function to create at least three different pets, each with unique names, species, and happiness levels.
+Initialize the Kennel Array:
+
+Create an empty array named kennel to store your pets.
+Add Pets to the Kennel Using push:
+
+Use the push method to add at least 5 of your pet objects to the kennel array.
+Add Pets to the Kennel Using Bracket Notation:
+
+Use bracket notation to add the remaining pet(s) to the kennel array.
+Log the Kennel Contents:
+
+Print the contents of the kennel array to the console, displaying all the pets.
+Bonus Task (Optional):
+
+Use console.table() instead of console.log()
+Research and use the forEach array method to make each pet rest.
+Try to use if-statements to prevent energy from going bellow 0 or above 100.
+Have a max energy level specific to each pet determined in the factory function.
+Think of a game mechanic to decrease happiness so happiness can fluctuate and make the game more fun.
+Submission:
+
+Use git to commit and push your code. Your code for day 3 will be in the file index-3.js. Ensure your code is well-commented to explain what each part does.
