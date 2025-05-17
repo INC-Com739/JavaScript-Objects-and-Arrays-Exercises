@@ -178,3 +178,37 @@ Think of a game mechanic to decrease happiness so happiness can fluctuate and ma
 Submission:
 
 Use git to commit and push your code. Your code for day 3 will be in the file index-3.js. Ensure your code is well-commented to explain what each part does.
+
+Day 4
+
+Objective:
+
+This assignment will help you practice organizing objects into different arrays and using a for loop to perform operations on each array.
+
+Instructions:
+
+Create Pet Factory Function:
+
+Create a new file called index-4.js
+You may copy/paste your work from day 3 or write it fresh for practice (recommended!)
+Ensure your pet factory function can create pets with species like "Dog," "Cat," and "Fish," each with a feed method that increases the pet's happiness.
+Create Three Kennels:
+
+Create three arrays: dogKennel, catKennel, and fishTank.
+Populate each array with at least five pets of the corresponding species using the pet factory function.
+Feed All Pets:
+
+Write separate for loops for each kennel (dogKennel, catKennel, fishTank).
+Inside each loop, call the feed method for each pet in the kennel, logging a message like, "Feeding Rover! Happiness is now 80."
+Output the Final Status:
+
+After each loop, log the final status of every pet in the kennel using their status method.
+Bonus Ideas:
+
+Make your functions have some randomness involved to the degree they change the values of energy and happiness
+Make some pets get "tired" faster than others.
+Have a function that decreases happiness (like: badDog, or bored).
+Try using the forEach method instead of for.
+Submission:
+
+Use git to commit and push your code. Your code for day 4 will be in the file index-4.js. Ensure your code is well-commented to explain what each part does.
